@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>podcast</title>
 </head>
-<body>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
     
+    <!-- Top Section with Player and Menu -->
+    <div class="flex w-full max-w-4xl items-start bg-white shadow-lg rounded-lg p-4">
+        
+        <!-- Audio Player -->
+        <div class="flex-1">
+            <audio controls class="w-full">
+                <source src="#" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
 
-
-    
+        <!-- Menu on the Right -->
+        <nav class="ml-4 flex flex-col space-y-2">
+            <a href="#" class="text-blue-500 hover:underline">Home</a>
+            <a href="#" class="text-blue-500 hover:underline">Podcast</a>
+            <a href="#" class="text-blue-500 hover:underline">Where to Listen</a>
+            <a href="#" class="text-blue-500 hover:underline">About Me</a>
+        </nav>
+    </div>
 </body>
 </html>

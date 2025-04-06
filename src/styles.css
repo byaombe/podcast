@@ -1,5 +1,11 @@
+
 /* styles.css */
-body {
-    background-color: rebeccapurple;
-  }
+@import "tailwindcss";
+
+
+.bg-red-500 {
+  background-color: #ef4444 !important;
+}
   
+  
+  @tailwind utilities;
